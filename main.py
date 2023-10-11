@@ -16,7 +16,7 @@ encoder = joblib.load('encoder.bin')
 
 app = FastAPI()
 r = sr.Recognizer()
-path = "file.wav"
+path = "file1.wav"
 
 
 def Feature_Extraction(X, sample_rate):
