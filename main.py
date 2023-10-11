@@ -11,7 +11,7 @@ import joblib
 
 
 loaded_model = tf.keras.models.load_model("model.h5")
-sc = joblib.load('scaler.bin')
+sc = joblib.load('scaler1.bin')
 encoder = joblib.load('encoder.bin')
 
 app = FastAPI()
